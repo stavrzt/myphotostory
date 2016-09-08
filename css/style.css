@@ -1,0 +1,104 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+}
+
+html {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+caption, th, td {
+  text-align: left;
+  font-weight: normal;
+  vertical-align: middle;
+}
+
+q, blockquote {
+  quotes: none;
+}
+q:before, q:after, blockquote:before, blockquote:after {
+  content: "";
+  content: none;
+}
+
+a img {
+  border: none;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
+  display: block;
+}
+
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Light.otf);
+  font-weight: 300;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Regular.otf);
+  font-weight: 400;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-SemiBold.otf);
+  font-weight: 500;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-Bold.otf);
+  font-weight: 700;
+}
+@font-face {
+  font-family: Montserrat;
+  src: url(../fonts/Montserrat-ExtraBold.otf);
+  font-weight: 800;
+}
+body {
+  font-family: Montserrat;
+  color: #515151;
+}
+
+header .row div:first-child img {
+  max-width: 100%;
+  max-height: 48px;
+}
+header li {
+  float: left;
+  padding-right: 4%;
+  font-weight: 300;
+  font-size: 16px;
+}
+header li:first-child {
+  font-weight: 500;
+  color: #02bfc5;
+}
+header .banner {
+  background: url("../imgs/banner.png");
+  min-width: 801px;
+}
