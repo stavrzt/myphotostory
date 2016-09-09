@@ -1,0 +1,18 @@
+@media (max-width: 1199px) {
+.nav ul{
+  width: 93%;
+}
+.banner{background-position: right;min-height: 601px;}
+}
+
+@media (max-width: 991px) {
+  #pull{display: block;float: right;}
+  nav ul{display: none;}
+  .nav {padding-top: 28px; padding-bottom:28px;}
+  .banner {min-height: 501px;}
+}
+
+@media (max-width: 991px) {
+.banner {min-height: 401px;}
+}
+

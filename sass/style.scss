@@ -47,7 +47,15 @@ header{
 			}
 		}
 	}
+}
 
+.logo{padding-top: 21px; padding-bottom: 21px}
+
+.nav{
+	padding-top:38px;
+	padding-top:38px;
+
+	ul {    float: right;width: 76%;}
 	li{
 		float: left;
 		padding-right: 4%;
@@ -56,10 +64,24 @@ header{
 	}
 
 	li:first-child{font-weight: 500; color:$b;}
+	li:last-child{padding-right: 0;}
 
-	.banner{
-		background: url("../imgs/banner.png");
-		min-width: 801px;
 	}
-}
+
+	#pull{
+		display: none;
+		
+		i{
+			color:#02bfc5;
+			font-size: 35px;
+		}
+	}
+
+.banner{
+	background: url("../imgs/banner.png");
+    min-height: 801px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+	}
 
