@@ -210,6 +210,25 @@ header .row div:first-child img {
   background-repeat: no-repeat;
 }
 
-/*height: 61px;
-    width: 47px;
-    background-position: -2px 0;-*/
+.vorteile .row > div div {
+  height: 61px;
+}
+
+.vorteile .row > div:first-child div {
+  width: 49px;
+}
+
+.vorteile .row > div:nth-child(2) div {
+    width: 67px;
+    background-position-x: -54px;
+}
+
+.vorteile .row > div:nth-child(3) div {
+    width: 65px;
+    background-position-x: -124px;
+}
+
+.vorteile .row > div:last-child div {
+    width: 70px;
+    background-position-x: -190px;
+}
