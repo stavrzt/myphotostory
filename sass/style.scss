@@ -4,6 +4,12 @@ $b: #02bfc5;
 $g: #515151;
 
 @font-face {
+	font-family: Montserrat;
+    src: url(../fonts/Montserrat-Hairline.otf);
+    font-weight: 200;
+}
+
+@font-face {
     font-family: Montserrat;
     src: url(../fonts/Montserrat-Light.otf);
     font-weight: 300;
@@ -36,7 +42,13 @@ $g: #515151;
 body{
 	font-family: Montserrat;
 	color:$g;
+	height: 2000px; //////////////////////////////////////////////////УБРАТЬ
 }
+
+a {color: $g;}
+a:hover{cursor: pointer;}
+
+/*HEADER*/
 
 header{
 	.row{
@@ -52,19 +64,25 @@ header{
 .logo{padding-top: 21px; padding-bottom: 21px}
 
 .nav{
-	padding-top:38px;
-	padding-top:38px;
+	padding-top:29px;
+	position: static;
 
-	ul {    float: right;width: 76%;}
+	ul {    float: right;width: 90.5%;}
 	li{
 		float: left;
-		padding-right: 4%;
-		font-weight: 300;
-		font-size: 16px;
+		margin-right: 15px;
+		
+		a{
+			font-weight: 300;
+			font-size: 16px;
+			display:block;
+			padding: 10px;
+		}
 	}
 
-	li:first-child{font-weight: 500; color:$b;}
-	li:last-child{padding-right: 0;}
+	li:first-child{ a{font-weight: 500; color:$b;}}
+	li:hover{cursor:pointer;}
+	li:hover a{color:$b;}
 
 	}
 
@@ -77,11 +95,60 @@ header{
 		}
 	}
 
+	/*BANNER*/
+
 .banner{
+	position:relative;
 	background: url("../imgs/banner.png");
     min-height: 801px;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
+
+    h1{font-size:40px;    line-height: 50px; margin-top: 31%;}
+    p{font-size:20px;padding-right: 15%; font-weight:300;line-height:25px;margin-top:5%; margin-bottom: 14%;}
 	}
 
+
+.rounded{
+  border: 1px $b solid;
+  border-radius: 20px;
+  a{color:$b;}
+}
+
+.rounded:hover, .rounded a:hover{color: #515151 !important; border-color:#515151 !important;}
+
+.emotion{
+	img{max-width: 70%;}
+	z-index: 1;
+}
+
+.mouse{
+	position:absolute;
+	left:50%;
+	margin:-15px;
+	bottom: -30px;
+}
+
+/*VORTEILE*/
+
+.vorteile{
+	text-align: center;
+
+	h2{
+		font-size: 30px;
+	}
+}
+
+
+.vorteile_icon{
+	margin: 0 auto;
+    background-image: url('../imgs/vorteile_icon.png');
+    background-repeat: no-repeat;
+}
+
+/*height: 61px;
+    width: 47px;
+    background-position: -2px 0;-*/
+
+ 

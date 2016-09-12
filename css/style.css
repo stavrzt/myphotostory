@@ -56,6 +56,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 
 @font-face {
   font-family: Montserrat;
+  src: url(../fonts/Montserrat-Hairline.otf);
+  font-weight: 200;
+}
+@font-face {
+  font-family: Montserrat;
   src: url(../fonts/Montserrat-Light.otf);
   font-weight: 300;
 }
@@ -82,8 +87,18 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: Montserrat;
   color: #515151;
+  height: 2000px;
 }
 
+a {
+  color: #515151;
+}
+
+a:hover {
+  cursor: pointer;
+}
+
+/*HEADER*/
 header .row div:first-child img {
   max-width: 100%;
   max-height: 48px;
@@ -95,25 +110,32 @@ header .row div:first-child img {
 }
 
 .nav {
-  padding-top: 38px;
-  padding-top: 38px;
+  padding-top: 29px;
+  position: static;
 }
 .nav ul {
   float: right;
-  width: 76%;
+  width: 90.5%;
 }
 .nav li {
   float: left;
-  padding-right: 4%;
+  margin-right: 15px;
+}
+.nav li a {
   font-weight: 300;
   font-size: 16px;
+  display: block;
+  padding: 10px;
 }
-.nav li:first-child {
+.nav li:first-child a {
   font-weight: 500;
   color: #02bfc5;
 }
-.nav li:last-child {
-  padding-right: 0;
+.nav li:hover {
+  cursor: pointer;
+}
+.nav li:hover a {
+  color: #02bfc5;
 }
 
 #pull {
@@ -124,10 +146,70 @@ header .row div:first-child img {
   font-size: 35px;
 }
 
+/*BANNER*/
 .banner {
+  position: relative;
   background: url("../imgs/banner.png");
   min-height: 801px;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
+.banner h1 {
+  font-size: 40px;
+  line-height: 50px;
+  margin-top: 31%;
+}
+.banner p {
+  font-size: 20px;
+  padding-right: 15%;
+  font-weight: 300;
+  line-height: 25px;
+  margin-top: 5%;
+  margin-bottom: 14%;
+}
+
+.rounded {
+  border: 1px #02bfc5 solid;
+  border-radius: 20px;
+}
+.rounded a {
+  color: #02bfc5;
+}
+
+.rounded:hover, .rounded a:hover {
+  color: #515151 !important;
+  border-color: #515151 !important;
+}
+
+.emotion {
+  z-index: 1;
+}
+.emotion img {
+  max-width: 70%;
+}
+
+.mouse {
+  position: absolute;
+  left: 50%;
+  margin: -15px;
+  bottom: -30px;
+}
+
+/*VORTEILE*/
+.vorteile {
+  text-align: center;
+}
+.vorteile h2 {
+  font-size: 30px;
+}
+
+.vorteile_icon {
+  margin: 0 auto;
+  background-image: url("../imgs/vorteile_icon.png");
+  background-repeat: no-repeat;
+}
+
+/*height: 61px;
+    width: 47px;
+    background-position: -2px 0;-*/
