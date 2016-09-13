@@ -87,7 +87,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: Montserrat;
   color: #515151;
-  height: 2000px;
+  height: 4000px;
 }
 
 a {
@@ -197,11 +197,25 @@ header .row div:first-child img {
 }
 
 /*VORTEILE*/
+.block_title {
+  font-size: 30px;
+  margin-top: 85px;
+  margin-bottom: 70px;
+}
+
 .vorteile {
   text-align: center;
+  margin-bottom: 60px;
 }
-.vorteile h2 {
-  font-size: 30px;
+.vorteile h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 35px;
+  margin-bottom: 37px;
+}
+.vorteile p {
+  font-size: 14px;
+  font-weight: 300;
 }
 
 .vorteile_icon {
@@ -219,16 +233,107 @@ header .row div:first-child img {
 }
 
 .vorteile .row > div:nth-child(2) div {
-    width: 67px;
-    background-position-x: -54px;
+  width: 67px;
+  background-position-x: -54px;
 }
 
 .vorteile .row > div:nth-child(3) div {
-    width: 65px;
-    background-position-x: -124px;
+  width: 65px;
+  background-position-x: -124px;
 }
 
 .vorteile .row > div:last-child div {
-    width: 70px;
-    background-position-x: -190px;
+  width: 70px;
+  background-position-x: -190px;
+}
+
+/*FIRST CONTENT - SUBSCRIBE*/
+
+.first_cont {
+  background: url("../imgs/subscribe_bckg.png");
+  background-color: #d8e2e2;
+  background-position-x: 15%;
+  min-height: 815px;
+}
+
+.first_cont, .second_cont {
+  position: relative;
+  background-repeat: no-repeat !important;
+  background-position-y: bottom !important;
+  overflow: hidden;
+}
+
+.first_cont h2 {
+  text-align: center;
+}
+
+.number_slide {
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 50%;
+  margin-left: -30px;
+  margin-top: 11%;
+}
+
+.number_slide p {
+  width: 48px;
+  height: 48px;
+  border: 1px solid #02bfc5;
+  border-radius: 50%;
+  text-align: center;
+  padding-top: 7px;
+  color: #02bfc5;
+  font-size: 30px;
+}
+
+.active {
+  border: 1px solid #02bfc5;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  margin-left: -50px;
+}
+
+.active p {
+  background: #02bfc5;
+  color: #d8e2e2;
+  margin-top: 12px;
+  margin-left: 12px;
+  width: 75px;
+  height: 75px;
+  font-size: 50px;
+}
+
+.active .mouse2 {
+  margin-left: 0px;
+}
+
+.mouse2 {
+  position: absolute;
+  left: 50%;
+  height: 540px;
+  width: 0px;
+  border-right: 1px #02bfc5 dashed;
+  top: 75px;
+  margin-left: -6px;
+}
+
+.first_cont h3 {
+  font-size: 48px;
+  font-weight: 100;
+  margin-top: 140px;
+  margin-bottom: 70px;
+}
+
+.subscribe_text p {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.4;
+}
+
+.second_cont {
+  background: url("../imgs/select_bckg.png");
+  background-position-x:right;
+  min-height: 655px;
 }
