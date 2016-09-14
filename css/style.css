@@ -87,7 +87,7 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 body {
   font-family: Montserrat;
   color: #515151;
-  height: 4000px;
+  height: 6000px;
 }
 
 a {
@@ -113,27 +113,33 @@ header .row div:first-child img {
   padding-top: 29px;
   position: static;
 }
+
 .nav ul {
   float: right;
   width: 90.5%;
 }
+
 .nav li {
   float: left;
   margin-right: 15px;
 }
+
 .nav li a {
   font-weight: 300;
   font-size: 16px;
   display: block;
   padding: 10px;
 }
+
 .nav li:first-child a {
   font-weight: 500;
   color: #02bfc5;
 }
+
 .nav li:hover {
   cursor: pointer;
 }
+
 .nav li:hover a {
   color: #02bfc5;
 }
@@ -141,6 +147,7 @@ header .row div:first-child img {
 #pull {
   display: none;
 }
+
 #pull i {
   color: #02bfc5;
   font-size: 35px;
@@ -155,11 +162,13 @@ header .row div:first-child img {
   background-size: cover;
   background-position: center;
 }
+
 .banner h1 {
   font-size: 40px;
   line-height: 50px;
   margin-top: 31%;
 }
+
 .banner p {
   font-size: 20px;
   padding-right: 15%;
@@ -173,6 +182,7 @@ header .row div:first-child img {
   border: 1px #02bfc5 solid;
   border-radius: 20px;
 }
+
 .rounded a {
   color: #02bfc5;
 }
@@ -185,6 +195,7 @@ header .row div:first-child img {
 .emotion {
   z-index: 1;
 }
+
 .emotion img {
   max-width: 70%;
 }
@@ -207,12 +218,14 @@ header .row div:first-child img {
   text-align: center;
   margin-bottom: 60px;
 }
+
 .vorteile h3 {
   font-size: 18px;
   font-weight: bold;
   margin-top: 35px;
   margin-bottom: 37px;
 }
+
 .vorteile p {
   font-size: 14px;
   font-weight: 300;
@@ -248,7 +261,6 @@ header .row div:first-child img {
 }
 
 /*FIRST CONTENT - SUBSCRIBE*/
-
 .first_cont {
   background: url("../imgs/subscribe_bckg.png");
   background-color: #d8e2e2;
@@ -256,7 +268,7 @@ header .row div:first-child img {
   min-height: 815px;
 }
 
-.first_cont, .second_cont {
+.content {
   position: relative;
   background-repeat: no-repeat !important;
   background-position-y: bottom !important;
@@ -285,6 +297,7 @@ header .row div:first-child img {
   padding-top: 7px;
   color: #02bfc5;
   font-size: 30px;
+  margin-left: 5px;
 }
 
 .active {
@@ -305,10 +318,6 @@ header .row div:first-child img {
   font-size: 50px;
 }
 
-.active .mouse2 {
-  margin-left: 0px;
-}
-
 .mouse2 {
   position: absolute;
   left: 50%;
@@ -316,14 +325,25 @@ header .row div:first-child img {
   width: 0px;
   border-right: 1px #02bfc5 dashed;
   top: 75px;
-  margin-left: -6px;
 }
 
-.first_cont h3 {
+.active .mouse2 {
+  top: 110px;
+}
+
+.active .before_number {
+  top: -213px;
+}
+
+.content h3 {
   font-size: 48px;
   font-weight: 100;
   margin-top: 140px;
   margin-bottom: 70px;
+}
+
+.second_cont h3 {
+  margin-top: 20px;
 }
 
 .subscribe_text p {
@@ -334,6 +354,132 @@ header .row div:first-child img {
 
 .second_cont {
   background: url("../imgs/select_bckg.png");
-  background-position-x:right;
+  background-position-x: right;
   min-height: 655px;
+}
+
+.before_number {
+  height: 200px;
+  top: -231px;
+}
+
+.second_step .number_slide {
+  margin-top: 13%;
+}
+
+hr {
+  background-color: #02bfc5;
+  height: 2px;
+  width: 20%;
+  float: left;
+}
+
+.step {
+  overflow: hidden;
+  margin-top: 30%;
+}
+.step p {
+  color: #02bfc5;
+  text-transform: uppercase;
+  font-weight: 800 !important;
+  float: left;
+  margin-left: 10px;
+  margin-top: 10px;
+  font-size: 18px !important;
+}
+
+/*THIRD STEP*/
+.third_cont {
+  background: url("../imgs/formed_bckg.png");
+  background-color: #d8e2e2;
+  background-position-x: 15%;
+  background-position-y: 50% !important;
+  min-height: 640px;
+}
+
+/*FOURTH STEP*/
+.fourth_cont {
+  background: url("../imgs/mail_bckg.png");
+  background-position-x: 82%;
+  min-height: 655px;
+}
+
+/*SUBSCRIPTION*/
+.subscription {
+  text-align: center;
+  background-color: #d8e2e2;
+  min-height: 841px;
+}
+.subscription h2 {
+  margin-top: 100px;
+}
+
+.subs_block {
+  background: white;
+  padding: 0;
+  border-radius: 5px;
+  overflow: hidden;
+  text-align: center;
+  border: 1px solid #02bfc5;
+}
+.subs_block hr {
+  width: 40%;
+  margin-left: 30%;
+  margin-bottom: 30px;
+}
+.subs_block ul {
+  clear: both;
+  font-size: 14px;
+  font-weight: 300;
+  width: 80%;
+  margin-left: 10%;
+}
+.subs_block ul b {
+  font-weight: 500;
+}
+.subs_block ul li {
+  border-bottom: 1px #d8e2e2 solid;
+  padding-bottom: 14px;
+  margin-bottom: 14px;
+}
+.subs_block ul li:last-child {
+  border: none;
+  padding: 0;
+}
+.subs_block h4 {
+  margin-top: 35px;
+  font-size: 18px;
+  font-weight: 500;
+}
+.subs_block button {
+  width: 66%;
+  height: 40px;
+  background: #02bfc5;
+  border: none;
+  border-radius: 4px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 300;
+}
+
+.subs_head {
+  background: #02bfc5;
+  padding: 15px 0;
+}
+.subs_head img {
+  max-height: 63px;
+}
+
+.price {
+  margin-top: 50px;
+  margin-bottom: 37px;
+}
+.price p:first-child {
+  color: #02bfc5;
+  font-size: 36px;
+  font-weight: 500;
+}
+.price p:last-child {
+  margin-top: 5px;
+  font-size: 14px;
 }
