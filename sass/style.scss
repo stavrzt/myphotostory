@@ -422,3 +422,41 @@ hr{
 }
 
 }
+
+/*SPECIFICATION*/
+
+.specification{
+	text-align:center;
+}
+
+.spec_icons div{
+	margin: 0 auto;
+    background-image: url("../imgs/spec_icon.png");
+    background-repeat: no-repeat;
+    height:56px;
+}
+
+.spec_icons:first-child li:first-child div{
+	width:41px;
+}
+.spec_icons:first-child li:nth-child(2) div{
+	width:38px;
+	background-position-x: -42px;
+}
+.spec_icons:first-child li:nth-child(3) div{
+	width:51px;
+	background-position: -81px;
+}
+
+.spec_icons:last-child li:first-child div{
+	width:43px;
+	background-position: -133px;
+}
+.spec_icons:last-child li:nth-child(2) div{
+	width:46px;
+	background-position: -177px;
+}
+.spec_icons:last-child li:nth-child(3) div{
+	width:50px;
+	background-position: -224px;
+}
