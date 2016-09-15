@@ -18,6 +18,8 @@
 .third_cont{background-size: 20%;}
 .third_cont h3{margin-top: 80px;margin-bottom: 45px;}
 .fourth_cont{background-size: 45%;}
+.spec_icons div{margin-bottom: 15px;}
+.spec_icons:last-child li:nth-child(2) div{margin-bottom: 10px;}
 
 }
 
@@ -40,6 +42,11 @@
   .second_cont h3 {margin-top: 20px;}
   .fourth_cont h3{margin-top: 40px;margin-bottom: 25px;}
   .fourth_cont{background-size: contain;}
+  .spec_icons li{margin-bottom: 15px;margin-top: 15px;}
+  .spec_icons p {font-size: 13px; word-wrap: break-word;}
+ /* .spec_icons div {margin-bottom: 5px;}
+  .spec_icons:last-child li:nth-child(2) div {margin-bottom: 0px;}*/
+
 }
 
 @media (max-width: 768px){
@@ -66,10 +73,12 @@
   .step p{color:white;}
   hr{background: white;}
   .second_cont h3{margin-top: 20px;}
-
   .fourth_cont{margin-top: 20px; min-height: 340px;}
   .subs_block{margin-bottom: 40px;}
   .subscription h2{margin-top: 40px; margin-bottom: 40px;}
+  .spec_icons p {font-size: 18px;}
+  .block_title{margin-bottom: 40px;}
+  .spec_icons li {margin-bottom: 40px;}
 }
 
 @media (max-width: 680px){
@@ -78,8 +87,9 @@
   .third_cont .container{width: 80%;margin-left: 15%;}
 }
 
-@media (max-width: 500px) {
+@media (max-width: 500px){
   .subs_block{width: 92%; margin-left: 4%;}
+  .spec_icons{width: 50%;margin: 0;}
 }
 
 @media (max-width: 400px) {
@@ -89,4 +99,4 @@
 @media (max-width: 360px) {
   .banner, .first_cont{min-height: 301px;}
   .emotion{margin-top: 6px;}
-}
+  .spec_icons{width: 100%;}

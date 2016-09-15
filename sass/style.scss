@@ -434,6 +434,11 @@ hr{
     background-image: url("../imgs/spec_icon.png");
     background-repeat: no-repeat;
     height:56px;
+    margin-bottom: 30px;
+}
+
+.spec_icons li{
+  margin-bottom: 50px;
 }
 
 .spec_icons:first-child li:first-child div{
@@ -455,8 +460,13 @@ hr{
 .spec_icons:last-child li:nth-child(2) div{
 	width:46px;
 	background-position: -177px;
+  margin-bottom: 20px;
 }
 .spec_icons:last-child li:nth-child(3) div{
 	width:50px;
 	background-position: -224px;
+}
+
+.specification img{
+  width:100%;
 }
