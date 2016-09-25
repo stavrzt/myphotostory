@@ -15,3 +15,15 @@ jQuery(function() {
         		}
     		});
 		});
+
+jQuery(document).ready(function() {
+	jQuery("#owl-example").owlCarousel({
+		navigation: true,
+		navigationText : false,
+		singleItem: true,
+		slideSpeed : 1000,
+    	paginationSpeed : 1000,
+    	rewindSpeed : 800,
+    	autoPlay:true
+	});
+});
