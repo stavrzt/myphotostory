@@ -104,8 +104,7 @@ header .row div:first-child img {
 }
 
 .logo {
-  padding-top: 21px;
-  padding-bottom: 21px;
+  padding: 21px 0;
 }
 
 .nav {
@@ -173,8 +172,7 @@ header .row div:first-child img {
   padding-right: 15%;
   font-weight: 300;
   line-height: 25px;
-  margin-top: 5%;
-  margin-bottom: 14%;
+  margin: 5% 0 14% 0;
 }
 
 .rounded {
@@ -209,8 +207,7 @@ header .row div:first-child img {
 /*VORTEILE*/
 .block_title {
   font-size: 30px;
-  margin-top: 85px;
-  margin-bottom: 70px;
+  margin: 85px 0 70px 0;
 }
 
 .vorteile {
@@ -221,8 +218,7 @@ header .row div:first-child img {
 .vorteile h3 {
   font-size: 18px;
   font-weight: bold;
-  margin-top: 35px;
-  margin-bottom: 37px;
+  margin: 35px 0 37px 0;
 }
 
 .vorteile p {
@@ -283,8 +279,7 @@ header .row div:first-child img {
   height: 60px;
   position: absolute;
   left: 50%;
-  margin-left: -30px;
-  margin-top: 11%;
+  margin: 11% 0 0 -30px;
 }
 
 .number_slide p {
@@ -310,8 +305,7 @@ header .row div:first-child img {
 .active p {
   background: #02bfc5;
   color: #d8e2e2;
-  margin-top: 12px;
-  margin-left: 12px;
+  margin: 12px 0 0 12px;
   width: 75px;
   height: 75px;
   font-size: 50px;
@@ -381,8 +375,7 @@ hr {
   text-transform: uppercase;
   font-weight: 800 !important;
   float: left;
-  margin-left: 10px;
-  margin-top: 10px;
+  margin: 10px 0 0 10px;
   font-size: 18px !important;
 }
 
@@ -422,8 +415,7 @@ hr {
 }
 .subs_block hr {
   width: 40%;
-  margin-left: 30%;
-  margin-bottom: 30px;
+  margin: 0 0 30px 30%;
 }
 .subs_block ul {
   clear: both;
@@ -469,8 +461,7 @@ hr {
 }
 
 .price {
-  margin-top: 50px;
-  margin-bottom: 37px;
+  margin: 50px 0 37px 0;
 }
 .price p:first-child {
   color: #02bfc5;
@@ -554,8 +545,7 @@ hr {
   background-repeat: no-repeat;
 }
 .chronicle h4 {
-  margin-top: 100px;
-  margin-bottom: 25px;
+  margin: 100px 0 25px 0;
   font-size: 30px;
   font-weight: 400;
 }
@@ -576,8 +566,7 @@ hr {
 }
 .slider h5 {
   font-size: 16px;
-  margin-top: 45px;
-  margin-bottom: 35px;
+  margin: 45px 0 35px 0;
 }
 .slider p {
   font-size: 18px;
@@ -602,8 +591,7 @@ hr {
 }
 
 .owl-carousel {
-  margin-top: 100px;
-  margin-bottom: 110px;
+  margin: 100px 0 110px 0;
 }
 
 .owl-carousel div:first-child .user_photo {
@@ -652,14 +640,12 @@ hr {
 footer h5 {
   color: #02bfc5;
   font-weight: 500;
-  margin-top: 40px;
-  margin-bottom: 35px;
+  margin: 40px 0 35px 0;
 }
 footer h6 {
   font-size: 18px;
   font-weight: 500;
-  margin-top: 35px;
-  margin-bottom: 20px;
+  margin: 35px 0 20px 0;
 }
 footer p {
   font-weight: 300;
@@ -821,7 +807,6 @@ footer li:hover a {
 .product_page .memories button {
   width: 80px;
   height: 40px;
-  margin: 0 auto;
   border: none;
   background: #02bfc5;
   border-radius: 5px;

@@ -23,7 +23,7 @@
 .second_cont{background-size: 45%;}
 .step{margin-top: 12%;}
 .third_cont{background-size: 20%;}
-.third_cont h3{margin-top: 80px;margin-bottom: 45px;}
+.third_cont h3{margin: 80px 0 45px 0;}
 .fourth_cont{background-size: 45%;}
 .spec_icons div{margin-bottom: 15px;}
 .spec_icons:last-child li:nth-child(2) div{margin-bottom: 10px;}
@@ -46,10 +46,10 @@
 @media (max-width: 991px) {
   #pull{display: block;float: right;}
   nav ul{display: none;position: absolute;background: white;width: 220px !important;position: absolute;right: 0;top: 91px;border-bottom-left-radius: 20px;z-index: 2;box-shadow: 0 5px 10px rgba(0,0,0,0.5);} 
-  nav ul li{width: 100%;text-align: center;margin-top: 5px;margin-bottom: 5px;}
+  nav ul li{width: 100%;text-align: center;margin: 5px 0;}
 
   .rounded{width: 80%;margin-left: 10%;}
-  .nav{padding-top: 28px; padding-bottom:28px;}
+  .nav{padding:28px 0;}
   .banner, .content{min-height: 401px;}
   .banner h1 {margin-top:11%; line-height: 38px; font-size: 34px;}
   .banner p{padding-right: 0 !important; margin-bottom: 9%; font-size: 19px;}
@@ -60,9 +60,9 @@
   .first_cont h3, .second_cont h3, .third_cont h3{margin-bottom: 20px; font-size: 45px;}
   .first_cont .block_title, .third_cont h3{margin-top: 30px;}
   .second_cont h3 {margin-top: 20px;}
-  .fourth_cont h3{margin-top: 40px;margin-bottom: 25px;}
+  .fourth_cont h3{margin: 40px 0 25px 0;}
   .fourth_cont{background-size: contain;}
-  .spec_icons li{margin-bottom: 15px;margin-top: 15px;}
+  .spec_icons li{margin:15px 0;}
   .spec_icons p {font-size: 13px; word-wrap: break-word;}
   .chronicle {min-height: 250px;}
   .chronicle .container{margin-right: 0px; text-align: center;}
@@ -86,7 +86,7 @@
   .product_page .fourth_cont h3{margin-top: 40px;}
   .product_page .fifth_cont {min-height: 285px;}
   .product_page .fifth_cont h3 {margin: 10px 0 20px 0;}
-  .product_page .container{width:auto;}
+  .product_page .chronicle .container{width:auto;}
 }
 
 @media (max-width: 930px){
@@ -97,7 +97,8 @@
   .product_page .first_cont{min-height: 420px;}
 }
 
-@media (max-width: 768px){
+@media (max-width: 767px){
+  header .row{margin:0;}
   .banner, .first_cont{min-height: 345px;}
   .banner h1{line-height: 26px; font-size: 20px;}
   .banner p{font-size: 15px; line-height: 20px;}
@@ -110,7 +111,7 @@
   .third_cont .container{background: rgba(255,255,255,0.9); color:#02bfc5;}
   .subscribe_text{width: auto; margin-left:0;}
   .block_title{font-size: 24px;}
-  .content{padding-top: 20px; padding-bottom: 20px;}
+  .content{padding: 20px;}
   .first_cont h2{text-align: left;}
   .content h3{margin-top: 50px;font-size: 35px;}
   .third_cont h3{margin-top: 10px;}
@@ -123,19 +124,19 @@
   .second_cont h3{margin-top: 20px;}
   .fourth_cont{margin-top: 20px; min-height: 340px;}
   .subs_block{margin-bottom: 40px;}
-  .subscription h2{margin-top: 40px; margin-bottom: 40px;}
+  .subscription h2{margin: 40px 0;}
   .spec_icons p {font-size: 18px;}
   .block_title{margin-bottom: 40px;}
   .spec_icons li {margin-bottom: 40px;}
-  .mehr button{margin-bottom: 30px;margin-top: 0;}
+  .mehr button{margin: 0 0 30px 0;}
   .chronicle h4{font-weight: 100;}
   .chronicle p{line-height: 1.2em;}
   .chronic_text{width: 100%;margin-left: 0;}
   .owl-theme .owl-controls .owl-buttons div{top:0;}
   .owl-prev{left:inherit; right: 50px;}
   .owl-next{right: 0px;}
-  .owl-carousel{margin-top: 40px;margin-bottom: 20px;}
-  footer h5{margin-top: 25px;margin-bottom: 20px;}
+  .owl-carousel{margin: 40px 0 20px 0;}
+  footer h5{margin: 25px 0 20px 0;}
   footer p{margin-bottom: 20px;}
   footer p:last-child{padding-bottom: 20px;}
   footer h6:last-child{text-align:center;}
