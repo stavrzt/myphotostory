@@ -167,7 +167,6 @@ header .row div:first-child img {
 .mouse {
   position: absolute;
   left: 50%;
-  margin: -15px;
   bottom: -30px;
 }
 
@@ -312,7 +311,7 @@ header .row div:first-child img {
 }
 
 .second_cont h3{
-	margin-top: 20px;
+	margin-top: 30%;
 }
 
 .subscribe_text p {
@@ -344,8 +343,17 @@ hr{
 }
 
 .step{
-	overflow:hidden;
-	margin-top: 30%;
+  opacity:0;
+	overflow: hidden;
+  margin-top: 0;
+  position: absolute;
+  width: 250px;
+  top: 60px;
+  left: 20px;
+  -webkit-transition: all 1.5s ease-in-out;
+  -moz-transition: all 1.5s ease-in-out;
+  -o-transition: all 1.5s ease-in-out;
+  transition: all 1.5s ease-in-out;
 		p{
 		color:$b;
 	    text-transform: uppercase;
@@ -743,8 +751,6 @@ input{
     }
   }
 
-  .step {margin-top: 12%;}
-
   .third_cont{
     background: #d8e2e2 url("../imgs/innenseiten.png");
     background-size: contain;
@@ -861,4 +867,10 @@ input{
     float:left;
     padding: 11px 0 0 10px;
   }
+}
+
+
+#full_banner{
+  height: calc(100vh);
+  min-height: auto;
 }
