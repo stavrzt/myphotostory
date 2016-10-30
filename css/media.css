@@ -53,10 +53,11 @@
   nav ul li{width: 100%;text-align: center;margin: 5px 0;}
   .rounded{width: 80%;margin-left: 10%;}
   .nav{padding:28px 0;}
+  .nav ul {padding: 0 7px;}
   .banner, .content{min-height: 401px;}
   .banner h1 {margin-top:11%; line-height: 38px; font-size: 34px;}
   .banner p{padding-right: 0 !important; margin-bottom: 9%; font-size: 19px;}
-  .mouse{width: 22px;margin: -11px;bottom: -25px;}
+  .mouse{width: 21px;margin: -11px;bottom: -25px;}
   .vorteile h2 {margin-bottom: 25px;}
   .vorteile .row div {margin-top: 10px;}
   .first_cont{background-position-x: 2%;background-size: 40%;}
@@ -118,13 +119,12 @@
   .block_title{font-size: 24px;}
   .content{padding: 20px;}
   .first_cont h2{text-align: left;}
-  .content h3{margin-top: 50px;font-size: 35px;}
+  .content h3{font-size: 35px; margin-top: 15px;}
   .third_cont h3{margin-top: 10px;}
   .subscribe_text p{font-size: 15px;}
   .second_cont, .third_cont{background-size: contain;margin-top: 30px;min-height: 320px;}
   .second_cont .container, .fourth_cont .container{width: 55%;margin-left: 5%; float:left;}
-  .step{margin-top: 0;}
-  .step p{color:white;}
+  .step{display: none;}
   hr{background: white;}
   .second_cont h3{margin-top: 20px;}
   .fourth_cont{margin-top: 20px; min-height: 340px;}
@@ -160,6 +160,8 @@
   .product_page .chronicle .container{float:left;margin-left: 5%;}
   .additional_info li{margin-bottom: 17px;}
   .vorteile h3{margin: 25px 0;}
+  .content h3, .chronicle h4, .chronicle p{font-weight: 300;}
+  .chronicle p{font-size: 15px;}
 }
 
 @media (max-width: 680px){
@@ -205,6 +207,67 @@
   .spec_icons{width: 100%;}
   .product_page .first_cont h3,.product_page .first_cont h2{font-size: 20px;}
   .product_page .first_cont .container{min-width: 270px;}
-  .third_cont .container{width:90%;}
+  .third_cont .container{width:96%; margin-right: 2%;}
   .registration form>div{width: 96%; margin-left: 2%;}
+}
+
+/*MQ for retina*/
+
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+
+  .spec_icons div {
+    background-image: url(../imgs/spec_icon2x.png) ;
+    background-size: cover;
+  }
+
+  .spec_icons:last-child li:first-child div {
+    width: 36px;
+    background-position: -182px;
+  }
+
+  .spec_icons:first-child li:nth-child(2) div {
+    width: 40px;
+    background-position-x: -42px;
+  }
+
+  .spec_icons:last-child li:nth-child(2) div {
+    width: 48px;
+    background-position: -81px;
+  }
+
+   .spec_icons:first-child li:nth-child(3) div{
+    width: 52px;
+    background-position: -130px;
+  }
+
+  .spec_icons:last-child li:nth-child(3) div {
+    width: 51px;
+    background-position: -229px;
+  }
+
+  .vorteile_icon {
+    background-image: url(../imgs/vorteile_icon2x.png);
+    background-size: cover;
+  }
+
+  .vorteile .row > div:first-child div {
+    width: 47px;
+    background-position-x: -207px;
+  }
+
+  .vorteile .row > div:nth-child(3) div {
+    width: 66px;
+    background-position-x: -71px;
+  }
+
+  .vorteile .row > div:nth-child(2) div {
+    width: 68px;
+    background-position-x: -138px;
+  }
+
+  .vorteile .row > div:last-child div {
+    width: 68px; 
+    background-position-x: 0;
+  }
+
 }
