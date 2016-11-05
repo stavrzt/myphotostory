@@ -84,6 +84,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   src: url(../fonts/Montserrat-ExtraBold.otf);
   font-weight: 800;
 }
+html, body {
+  width: -webkit-calc(100% - 0px);
+  height: -webkit-calc(100% - 0px);
+}
+
 body {
   font-family: Montserrat;
   color: #515151;
@@ -375,10 +380,15 @@ header .row div:first-child img {
   margin-top: 30%;
 }
 
+.subscribe_text {
+  padding-bottom: 25px;
+}
+
 .subscribe_text p {
   font-weight: 300;
   font-size: 16px;
   line-height: 1.5;
+  text-align: justify;
 }
 
 .second_cont {
@@ -446,7 +456,7 @@ hr {
   min-height: 841px;
 }
 .subscription h2 {
-  margin-top: 100px;
+  margin-top: 60px;
 }
 
 .subs_block {
@@ -675,6 +685,7 @@ hr {
 .seo p {
   font-weight: 300;
   margin-bottom: 35px;
+  text-align: justify;
 }
 .seo p:last-child {
   margin-bottom: 0;
@@ -743,7 +754,6 @@ input {
 .mail_input {
   font-size: 14px;
   font-weight: 300;
-  margin-bottom: 50px;
   overflow: hidden;
 }
 .mail_input .button {
@@ -817,25 +827,16 @@ input {
   background-image: url("../imgs/specification_bckg.png");
   background-position-x: 5%;
 }
-.product_page .first_cont h3 {
-  margin-top: 200px;
-}
 .product_page .second_cont {
   margin-top: 20px;
   background: url("../imgs/hardcover.png") right;
   background-size: contain;
   min-height: 520px;
 }
-.product_page .second_cont h3 {
-  margin-bottom: 40px;
-}
 .product_page .third_cont {
   background: #d8e2e2 url("../imgs/innenseiten.png");
   background-size: contain;
   padding: 20px 0;
-}
-.product_page .third_cont h3 {
-  margin-top: 120px;
 }
 .product_page .fourth_cont {
   background-image: url("../imgs/seitenanzahl_bckg.png");
@@ -883,25 +884,73 @@ input {
   font-size: 30px;
   margin: 40px 0 50px 0;
 }
-.registration .memories input {
+.registration .memories input[type="text"], .registration .memories input[type="password"] {
   width: 100%;
-  margin: 0 auto;
+  margin: 3px auto 0 auto;
 }
-.registration .memories input[type="password"] {
+.registration .memories input[type="text"][type="password"], .registration .memories input[type="password"][type="password"] {
   font-size: 30px;
   margin-bottom: 15px;
 }
-.registration label {
-  margin-bottom: 10px;
+.registration #check_accept, .registration #check_age {
+  height: 15px;
+  width: 15px;
+  margin: 0;
+}
+.registration .checks {
+  margin-bottom: 15px;
+}
+.registration .checks br {
+  display: none;
+}
+.registration .checks label {
+  font-size: 13px;
+  margin: 2px 0 0 8px;
+}
+.registration .register {
+  border-bottom: 1px #dcdcdc solid;
+  padding-bottom: 25px;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.registration .check_age, .registration #check_age {
+  float: right;
 }
 .registration .row div {
   text-align: left;
 }
-.registration button {
+.registration footer .row div {
+  text-align: center;
+}
+.registration .memories button {
   text-transform: uppercase;
   font-weight: 400;
-  width: 40%;
-  float: left;
+  width: 235px;
+}
+.registration .memories form {
+  width: 59%;
+  float: right;
+  padding: 0 15px;
+}
+.registration .form_vorteile {
+  width: 39%;
+  float: right;
+  padding: 15px;
+  padding-left: 30px;
+  border-radius: 30px;
+  background: rgba(2, 191, 197, 0.3);
+  margin-right: 2%;
+}
+.registration .form_vorteile h3 {
+  margin-bottom: 25px;
+  font-size: 22px;
+}
+.registration .form_vorteile ul {
+  list-style: initial;
+}
+.registration .form_vorteile ul li {
+  margin-bottom: 15px;
+  font-size: 13px;
 }
 
 #reg_email {
@@ -919,7 +968,6 @@ input {
   clear: both;
   background-color: #062c70;
   width: 235px;
-  margin-bottom: 25px;
 }
 .reg_facebook i {
   font-size: 26px;
@@ -932,6 +980,17 @@ input {
 }
 
 #full_banner {
-  height: calc(100vh);
+  height: 100vh;
   min-height: auto;
+}
+
+#mouse {
+  -webkit-transition: all 700ms ease-in-out;
+  -moz-transition: all 700ms ease-in-out;
+  -o-transition: all 700ms ease-in-out;
+  transition: all 700ms ease-in-out;
+}
+
+.test {
+  bottom: 20px;
 }
