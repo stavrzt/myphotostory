@@ -11,17 +11,17 @@
 
 
 	$(function() {
-		var pull 		= jQuery('#pull');
-			menu 		= jQuery('nav ul');
+		var pull 		= $('#pull');
+			menu 		= $('nav ul');
 			menuHeight	= menu.height();
 
-		jQuery(pull).on('click', function(e) {
+		$(pull).on('click', function(e) {
 			e.preventDefault();
 			menu.slideToggle();
 		});
 
-		jQuery(window).resize(function(){
-        	var w = jQuery(window).width();
+		$(window).resize(function(){
+        	var w = $(window).width();
         	if(w > 320 && menu.is(':hidden')) {
         		menu.removeAttr('style');
         	}
@@ -42,7 +42,7 @@
 	});
 
 /*FULL-SIZE BANNER*/
-if(jQuery("div").is('#full_banner')){
+if($("div").is('#full_banner')){
 	history.scrollRestoration = 'manual';
 	document.getElementById('full_banner').scrollIntoView(true);
 }
@@ -60,7 +60,7 @@ if(jQuery("div").is('#full_banner')){
 	var refreshIntervalId;
 
 	$(window).scroll(function(){
-		if(jQuery("img").is('#mouse')){
+		if($("img").is('#mouse')){
 			if (isScrolledIntoView($("#mouse")) && !state){
 				refreshIntervalId = setInterval(function (){
 					$("#mouse").addClass("test");
