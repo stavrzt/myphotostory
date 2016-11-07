@@ -681,6 +681,7 @@ input{
   font-size:14px;
   font-weight: 300;
   overflow: hidden;
+  margin-bottom: 40px;
   .button{
     width:34%;
     float:left;
@@ -803,6 +804,7 @@ input{
 
   .chronicle{
     background: url("../imgs/garantiert.png") right;
+    background-size: cover;
   }
 
 }
@@ -814,7 +816,6 @@ input{
     border-bottom: 2px #02bfc5 solid;
   }
   form{
-    margin-bottom: 50px;
     overflow:hidden;
   }
   h1{
@@ -827,7 +828,6 @@ input{
     margin: 3px auto 0 auto;
 
       &[type="password"]{
-        font-size: 30px;
         margin-bottom: 15px;
       }
     }
@@ -874,6 +874,7 @@ input{
     width: 59%;
     float: right;
     padding: 0 15px;
+    margin-bottom: 50px;
   }
 
   .form_vorteile{

@@ -755,6 +755,7 @@ input {
   font-size: 14px;
   font-weight: 300;
   overflow: hidden;
+  margin-bottom: 40px;
 }
 .mail_input .button {
   width: 34%;
@@ -870,6 +871,7 @@ input {
 }
 .product_page .chronicle {
   background: url("../imgs/garantiert.png") right;
+  background-size: cover;
 }
 
 /*REGISTRATION*/
@@ -877,7 +879,6 @@ input {
   border-bottom: 2px #02bfc5 solid;
 }
 .registration form {
-  margin-bottom: 50px;
   overflow: hidden;
 }
 .registration h1 {
@@ -889,7 +890,6 @@ input {
   margin: 3px auto 0 auto;
 }
 .registration .memories input[type="text"][type="password"], .registration .memories input[type="password"][type="password"] {
-  font-size: 30px;
   margin-bottom: 15px;
 }
 .registration #check_accept, .registration #check_age {
@@ -931,6 +931,7 @@ input {
   width: 59%;
   float: right;
   padding: 0 15px;
+  margin-bottom: 50px;
 }
 .registration .form_vorteile {
   width: 39%;
