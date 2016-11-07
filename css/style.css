@@ -884,6 +884,7 @@ input {
 .registration h1 {
   font-size: 30px;
   margin: 40px 0 50px 0;
+  text-align: center;
 }
 .registration .memories input[type="text"], .registration .memories input[type="password"] {
   width: 100%;
@@ -916,12 +917,6 @@ input {
 .registration .check_age, .registration #check_age {
   float: right;
 }
-.registration .row div {
-  text-align: left;
-}
-.registration footer .row div {
-  text-align: center;
-}
 .registration .memories button {
   text-transform: uppercase;
   font-weight: 400;
@@ -939,7 +934,7 @@ input {
   padding: 15px;
   padding-left: 30px;
   border-radius: 30px;
-  background: rgba(2, 191, 197, 0.3);
+  background: #b3ecee;
   margin-right: 2%;
 }
 .registration .form_vorteile h3 {
@@ -963,6 +958,7 @@ input {
   min-height: 355px;
   background-repeat: no-repeat;
   background-position: center center;
+  text-align: left;
 }
 
 .reg_facebook {
