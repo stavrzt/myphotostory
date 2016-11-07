@@ -47,33 +47,6 @@ if($("div").is('#full_banner')){
 	document.getElementById('full_banner').scrollIntoView(true);
 }
 
-/*ANIMATION MOUSE*/
-	function isScrolledIntoView(elem){
-		var docViewTop = $(window).scrollTop();
-		var docViewBottom = docViewTop + $(window).height();
-		var elemTop = $(elem).offset().top;
-		var elemBottom = elemTop + $(elem).height() - 150;
-		return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
-	}
-
-	var state = false;
-	var refreshIntervalId;
-
-	$(window).scroll(function(){
-		if($("img").is('#mouse')){
-			if (isScrolledIntoView($("#mouse")) && !state){
-				refreshIntervalId = setInterval(function (){
-					$("#mouse").addClass("test");
-					setTimeout(function(){$("#mouse").removeClass("test");}, 700);
-				}, 1400);
-				state = true;
-			}
-			else if(!isScrolledIntoView($("#mouse"))){
-				clearInterval(refreshIntervalId);
-				state = false;
-			}
-		}
-	});
 });
 
 })(jQuery);

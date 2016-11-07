@@ -1,0 +1,14 @@
+﻿
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# On branch master
+# Your branch is ahead of 'origin/master' by 1 commit.
+#   (use "git push" to publish your local commits)
+#
+# Changes to be committed:
+#	modified:   .sass-cache/eb85b8096c1a4042ec6a20415dc1365eb960bafe/style.scssc
+#	modified:   css/style.css
+#	modified:   js/script.js
+#	modified:   sass/style.scss
+#
+
