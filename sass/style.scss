@@ -91,11 +91,12 @@ header{
     transition-timing-function: ease-in-out;
     transition: 0.3s;
   }
-}
 
-header .row div:first-child img {
-  max-width: 100%;
-  max-height: 48px;
+  .row div:first-child img {
+    max-width: 100%;
+    max-height: 48px;
+  }
+
 }
 
 .logo {
@@ -637,21 +638,6 @@ footer {
   }
 }
 
-.operating_info li{
-  margin-bottom: 20px;
-  i{
-    margin-right: 7px;
-  }
-}
-
-.additional_info li{
-  margin-bottom: 13px;
-}
-
-.operating_info li:last-child{
-  margin-bottom: 0;
-}
-
 footer a{
   display: block;
   height: 100%;
@@ -662,10 +648,19 @@ footer a{
   color:$b;
 }
 
-footer li:hover a{
-  color:$b;
-  transition-timing-function: ease-in-out;
-  transition: 0.3s;
+.operating_info li{
+  margin-bottom: 20px;
+  i{
+    margin-right: 7px;
+  }
+}
+
+.operating_info li:last-child{
+  margin-bottom: 0;
+}
+
+.additional_info li{
+  margin-bottom: 13px;
 }
 
 input{
@@ -924,20 +919,10 @@ input{
   }
 }
 
-
 #full_banner{
   height: 100vh;
   min-height: auto;
 }
-
-#mouse{
--webkit-transition: all 700ms ease-in-out;
--moz-transition: all 700ms ease-in-out;
--o-transition: all 700ms ease-in-out;
-transition: all 700ms ease-in-out;
-}
-
-/**/
 
 @-webkit-keyframes anim_mouse{
   0%   { bottom: -30px; }

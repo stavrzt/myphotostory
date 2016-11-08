@@ -138,7 +138,6 @@ header .active:hover, header .active a:hover {
   transition-timing-function: ease-in-out;
   transition: 0.3s;
 }
-
 header .row div:first-child img {
   max-width: 100%;
   max-height: 48px;
@@ -711,21 +710,6 @@ footer li {
   font-weight: 300;
 }
 
-.operating_info li {
-  margin-bottom: 20px;
-}
-.operating_info li i {
-  margin-right: 7px;
-}
-
-.additional_info li {
-  margin-bottom: 13px;
-}
-
-.operating_info li:last-child {
-  margin-bottom: 0;
-}
-
 footer a {
   display: block;
   height: 100%;
@@ -736,10 +720,19 @@ footer a {
   color: #02bfc5;
 }
 
-footer li:hover a {
-  color: #02bfc5;
-  transition-timing-function: ease-in-out;
-  transition: 0.3s;
+.operating_info li {
+  margin-bottom: 20px;
+}
+.operating_info li i {
+  margin-right: 7px;
+}
+
+.operating_info li:last-child {
+  margin-bottom: 0;
+}
+
+.additional_info li {
+  margin-bottom: 13px;
 }
 
 input {
@@ -981,14 +974,6 @@ input {
   min-height: auto;
 }
 
-#mouse {
-  -webkit-transition: all 700ms ease-in-out;
-  -moz-transition: all 700ms ease-in-out;
-  -o-transition: all 700ms ease-in-out;
-  transition: all 700ms ease-in-out;
-}
-
-/**/
 @-webkit-keyframes anim_mouse {
   0% {
     bottom: -30px;
