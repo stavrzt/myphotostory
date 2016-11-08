@@ -704,7 +704,7 @@ input{
   margin-right: 0;
 }
 
-.third_ul li:hover{
+.third_ul li:hover, .third_ul li:hover i{
   color:$b;
   border-color:$b;
   cursor:pointer;

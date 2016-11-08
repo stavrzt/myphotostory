@@ -785,7 +785,7 @@ input {
   margin-right: 0;
 }
 
-.third_ul li:hover {
+.third_ul li:hover, .third_ul li:hover i {
   color: #02bfc5;
   border-color: #02bfc5;
   cursor: pointer;
