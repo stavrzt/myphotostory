@@ -1,0 +1,43 @@
+{
+  "name": "myphotostory",
+  "version": "1.0.0",
+  "description": "",
+  "sourceMaps": true,
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/stavrzt/myphotostory.git"
+  },
+  "author": "YA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/stavrzt/myphotostory/issues"
+  },
+  "homepage": "https://github.com/stavrzt/myphotostory#readme",
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-autoprefixer": "^3.1.1",
+    "gulp-clean-css": "^3.0.4",
+    "gulp-concat": "^2.6.1",
+    "gulp-csscomb": "^3.0.8",
+    "gulp-csslint": "^1.0.0",
+    "gulp-headerfooter": "^1.0.3",
+    "gulp-htmlhint": "^0.3.1",
+    "gulp-imagemin": "^3.2.0",
+    "gulp-install": "^1.1.0",
+    "gulp-jshint": "^2.0.4",
+    "gulp-merge": "^0.1.1",
+    "gulp-rename": "^1.2.2",
+    "gulp-sass": "^3.1.0",
+    "gulp-sequence": "^0.4.6",
+    "gulp-sourcemaps": "^2.4.1",
+    "gulp-strip-comments": "^2.4.5",
+    "gulp-uglify": "^2.1.2",
+    "htmlhint-stylish": "^1.0.3",
+    "jshint": "^2.9.4",
+    "jshint-stylish": "^2.2.1"
+  }
+}

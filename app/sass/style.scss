@@ -60,8 +60,8 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
 }
 
 html, body {
-  width: -webkit-calc(100% - 0px);
-  height: -webkit-calc(100% - 0px);
+  width: calc(100% - 0px);
+  height: calc(100% - 0px);
 }
 
 /*Custom CSS*/
@@ -95,9 +95,6 @@ a {
 }
 
 a, .owl-theme .owl-controls .owl-buttons div{
-  -webkit-transition: opacity 0.2s ease-in-out;
-  -o-transition: opacity 0.2s ease-in-out;
-  -moz-transition: opacity 0.2s ease-in-out;
   transition: opacity 0.2s ease-in-out;
 }
 
@@ -112,8 +109,6 @@ button:hover:before {
   height: 40px;
   background-color: $blue;
   border: none;
-  -webkit-border-radius: 4px;
-  -moz-border-radius: 4px;
   border-radius: 4px;
   color: white;
   font-weight: 300;
@@ -148,9 +143,6 @@ header {
       display: block;
       padding: 10px;
       cursor: pointer;
-      -webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-      -o-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-      -moz-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
       transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
       &:hover {
         color: $blue;
@@ -167,8 +159,6 @@ header {
       a {
         color: $blue;
         border: 1px $blue solid;
-        -webkit-border-radius: 20px;
-        -moz-border-radius: 20px;
         border-radius: 20px;
         &:hover {
           color: $grey;
@@ -191,8 +181,6 @@ header {
 .banner {
   position: relative;
   background: url("../imgs/banner.png") center no-repeat;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   min-height: 801px;
   h1 {
@@ -219,14 +207,7 @@ header {
 .mouse {
   position: absolute;
   left: 50%;
-  -webkit-transform: translateX(-50%);
-  -moz-transform: translateX(-50%);
-  -ms-transform: translateX(-50%);
-  -o-transform: translateX(-50%);
   transform: translateX(-50%);
-  -webkit-animation: anim_mouse 1.7s infinite;
-  -moz-animation: anim_mouse 1.7s infinite;
-  -o-animation: anim_mouse 1.7s infinite;
   animation: anim_mouse 1.7s infinite;
 }
 
@@ -303,15 +284,10 @@ header {
   overflow: hidden;
   .active {
     border: 1px solid $blue;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     width: 100px;
     height: 100px;
     margin-left: -50px;
-    -webkit-transition: all 0.5s ease;
-    -o-transition: all 0.5s ease;
-    -moz-transition: all 0.5s ease;
     transition: all 0.5s ease;
     p {
       background-color: $blue;
@@ -320,9 +296,6 @@ header {
       width: 75px;
       height: 75px;
       font-size: 50px;
-      -webkit-transition: all 0.5s ease;
-      -o-transition: all 0.5s ease;
-      -moz-transition: all 0.5s ease;
       transition: all 0.5s ease;
     }
     .mouse2 {
@@ -345,8 +318,6 @@ header {
     width: 48px;
     height: 48px;
     border: 1px solid $blue;
-    -webkit-border-radius: 50%;
-    -moz-border-radius: 50%;
     border-radius: 50%;
     text-align: center;
     padding-top: 7px;
@@ -401,9 +372,6 @@ header {
   width: 250px;
   top: 60px;
   left: 20px;
-  -webkit-transition: all 1.5s ease-in-out;
-  -moz-transition: all 1.5s ease-in-out;
-  -o-transition: all 1.5s ease-in-out;
   transition: all 1.5s ease-in-out;
 
   p {
@@ -446,8 +414,6 @@ header {
 .subs_block {
   background-color: white;
   padding: 0;
-  -webkit-border-radius: 5px;
-  -moz-border-radius: 5px;
   border-radius: 5px;
   overflow: hidden;
   text-align: center;
@@ -575,8 +541,6 @@ header {
 .chronicle {
   color: white;
   background: url("../imgs/chronicle_bckg.png") no-repeat;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
   min-height: 430px;
 
@@ -593,8 +557,6 @@ header {
   }
 
   img {
-    -webkit-border-radius: 6px;
-    -moz-border-radius: 6px;
     border-radius: 6px;
     margin-top: 65px;
   }
@@ -629,12 +591,8 @@ header {
 .user_photo {
   height: 128px;
   width: 128px;
-  -webkit-border-radius: 64px;
-  -moz-border-radius: 64px;
   border-radius: 64px;
   background: no-repeat center;
-  -moz-background-size: contain;
-  -o-background-size: contain;
   background-size: contain;
   margin: 0 auto;
 }
@@ -669,8 +627,6 @@ header {
   padding: 0;
   width: 16px;
   height: 30px;
-  -webkit-border-radius: 0;
-  -moz-border-radius: 0;
   border-radius: 0;
   background-image: url("../imgs/owl_buttons.png");
   background-color: transparent;
@@ -777,8 +733,6 @@ input {
   .button {
     width: 34%;
     float: left;
-    -webkit-border-radius: 0 5px 5px 0;
-    -moz-border-radius: 0 5px 5px 0;
     border-radius: 0 5px 5px 0;
   }
 }
@@ -791,8 +745,6 @@ input {
   margin-right: 10%;
   text-align: center;
   height: 43px;
-  -webkit-border-radius: 22px;
-  -moz-border-radius: 22px;
   border-radius: 22px;
 
   i {
@@ -852,16 +804,12 @@ input {
   .second_cont {
     margin-top: 20px;
     background: url("../imgs/hardcover.png") right;
-    -moz-background-size: contain;
-    -o-background-size: contain;
     background-size: contain;
     min-height: 520px;
   }
 
   .third_cont {
     background: #d8e2e2 url("../imgs/innenseiten.png");
-    -moz-background-size: contain;
-    -o-background-size: contain;
     background-size: contain;
     padding: 20px 0;
   }
@@ -906,8 +854,6 @@ input {
 
   .chronicle {
     background: url("../imgs/garantiert.png") right;
-    -moz-background-size: cover;
-    -o-background-size: cover;
     background-size: cover;
   }
 }
@@ -986,8 +932,6 @@ input {
     width: 39%;
     float: right;
     padding: 15px 15px 15px 30px;
-    -webkit-border-radius: 30px;
-    -moz-border-radius: 30px;
     border-radius: 30px;
     background: #b3ecee;
     margin-right: 2%;
@@ -1035,24 +979,6 @@ input {
 #full_banner {
   height: 100vh;
   min-height: initial;
-}
-
-@-webkit-keyframes anim_mouse {
-  0% {bottom: -30px;}
-  50% {bottom: 20px;}
-  100% {bottom: -30px;}
-}
-
-@-moz-keyframes anim_mouse {
-  0% {bottom: -30px;}
-  50% {bottom: 20px;}
-  100% {bottom: -30px;}
-}
-
-@-o-keyframes anim_mouse {
-  0% {bottom: -30px;}
-  50% {bottom: 20px;}
-  100% {bottom: -30px;}
 }
 
 @keyframes anim_mouse {
